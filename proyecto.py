@@ -1,9 +1,10 @@
 #Proyecto Programación
-accion_docente = int
-print("Estimado docente, que acción desea realizar?")      #borrador menu notas
-accion_docente=print(input("""1. Promedio de notas
-2. Gestión de asistencia del alumnado
-3. Reporte de alumno con ropa informal"""))
+print("Bienvenido al sistema de registros y reportes de alumno") #MENU INICIAL DEL PROGRAMA PRINCIPAL1
+
+print("           ¿Qué acción desea realizar?")
+accion_docente = int(input("""1. Promedio de notas    
+2. Asistencia e inasistencia
+3. Reporte de alumno con ropa informal
+4. Salir"""))
 if accion_docente == 1:
-   notas_alumno = print(input("Ingrese notas del alumnado"))
-      
+         notas = int(input("Registre las 8 notas del alumnado para saber su promedio:"))
