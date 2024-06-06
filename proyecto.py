@@ -1,5 +1,5 @@
 #Proyecto Programación
-print("Bienvenido al sistema de registros y reportes de alumno") #MENU INICIAL DEL PROGRAMA PRINCIPAL1
+print("Bienvenido al sistema de registros y reportes de alumno") #MENU INICIAL DEL PROGRAMA PRINCIPAL
 
 print("           ¿Qué acción desea realizar?")
 accion_docente = int(input("""1. Promedio de notas    
