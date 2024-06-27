@@ -3,7 +3,7 @@ import Functions as fu
 def menu_notas(notas):
     notas = []
     while True:
-        print("\nMenú:")
+        print("\nMenú de Notas:")
         print("1. Ingresar notas")
         print("2. Ver promedio de las notas")
         print("3. Volver a menu principal")
@@ -50,7 +50,7 @@ def menu():
     notas=[]
     asistencias = fu.generar_asistencia(5)
     while True:
-        print("\nMenú Principal:")
+        print("\nMenú Principal de Liceo:")
         print("1. Promedio de Notas")
         print("2. Menu de asistencia e inasistencia")
         print("3. Reporte de alumno con ropa informal")
